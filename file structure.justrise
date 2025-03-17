@@ -1,4 +1,4 @@
-fastapi_project/
+
 │── app/
 │   ├── routers/
 │   │   ├── users.py           # User management APIs (register, login, get users)
@@ -28,31 +28,31 @@ fastapi_project/
 //Use the bellow cmd to create the directory and file
 
 
-mkdir -p fastapi_project/app/routers
-mkdir -p fastapi_project/app/models
+mkdir -p app/routers
+mkdir -p app/models
 
 # Create Python files
-touch fastapi_project/app/main.py
-touch fastapi_project/app/database.py
-touch fastapi_project/app/config.py
-touch fastapi_project/app/utils.py
+touch app/main.py
+touch app/database.py
+touch app/config.py
+touch app/utils.py
 
 # Create routers
-touch fastapi_project/app/routers/__init__.py
-touch fastapi_project/app/routers/users.py
-touch fastapi_project/app/routers/transactions.py
-touch fastapi_project/app/routers/purchases.py
-touch fastapi_project/app/routers/auth.py
+touch app/routers/__init__.py
+touch app/routers/users.py
+touch app/routers/transactions.py
+touch app/routers/purchases.py
+touch app/routers/auth.py
 
 # Create models
-touch fastapi_project/app/models/__init__.py
-touch fastapi_project/app/models/user_model.py
-touch fastapi_project/app/models/transaction_model.py
-touch fastapi_project/app/models/purchase_model.py
+touch app/models/__init__.py
+touch app/models/user_model.py
+touch app/models/transaction_model.py
+touch app/models/purchase_model.py
 
 # Create other necessary files
-touch fastapi_project/requirements.txt
-touch fastapi_project/Dockerfile
-touch fastapi_project/docker-compose.yml
-touch fastapi_project/.env
-touch fastapi_project/README.md
+touch requirements.txt
+touch Dockerfile
+touch docker-compose.yml
+touch .env
+touch README.md
