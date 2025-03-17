@@ -1,0 +1,25 @@
+fastapi_project/
+│── app/
+│   ├── routers/
+│   │   ├── users.py           # User management APIs (register, login, get users)
+│   │   ├── transactions.py    # Transactions API (get transactions, add transactions)
+│   │   ├── purchases.py       # Purchase API (list purchases, get purchase by ID)
+│   │   ├── auth.py            # Authentication (JWT-based login, token handling)
+│   │   ├── __init__.py        # Makes this a Python package
+│   │
+│   ├── models/
+│   │   ├── user_model.py      # User table schema
+│   │   ├── transaction_model.py # Transactions table schema
+│   │   ├── purchase_model.py  # Purchases table schema
+│   │   ├── __init__.py        # Makes this a package
+│   │
+│   ├── database.py            # MySQL database connection setup
+│   ├── main.py                # FastAPI entry point (includes routers)
+│   ├── config.py              # Configuration settings (DB credentials, JWT secret)
+│   ├── utils.py               # Utility functions (hashing passwords, token validation)
+│
+│── requirements.txt           # Required Python packages
+│── Dockerfile                 # Docker container setup
+│── docker-compose.yml         # Docker Compose for running FastAPI + MySQL
+│── .env                       # Environment variables (DB credentials, JWT secret)
+│── README.md                  # Project documentation
