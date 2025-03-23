@@ -2,6 +2,7 @@ fastapi
 uvicorn
 passlib
 bcrypt
+python-jose
 
 #  Run the following command to install the required packages
 #  pip install -r requirements.txt
