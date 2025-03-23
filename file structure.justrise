@@ -52,7 +52,5 @@ touch app/models/purchase_model.py
 
 # Create other necessary files
 touch requirements.txt
-touch Dockerfile
-touch docker-compose.yml
 touch .env
 touch README.md
